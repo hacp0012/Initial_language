@@ -1,0 +1,6 @@
+{
+    root: "C:\\Initial_Language\\",
+    log: "logs.txt",
+    translater: "translater.js"
+    
+}
