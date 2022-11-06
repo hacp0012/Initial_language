@@ -1,5 +1,6 @@
 ## INITIAL LANGUAGE
 name : InitiaL ( Initiat Language) ( il )
+
 name : initiat code ( ic )
 
 est une langage conçu à académique.
