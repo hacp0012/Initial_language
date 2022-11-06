@@ -9,6 +9,7 @@ il traduit du code ecrire en français dans langage exécutable
 fonctionne seulement sur Windows 
 
 il contient certains fichiers exécutable qu'il va installer âpre vérification.
+
 -- npp : notepad++ v_7.8
 
 -- node.js v_12
