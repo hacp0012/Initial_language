@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+	<AutoComplete>
+		<KeyWord name="#mode" />
+		<KeyWord name="#idente" />
+		
+		<KeyWord name="DEBUTPROGRAMME" />
+		<KeyWord name="FINPROGRAMME" />
+		<KeyWord name="DEBUT" />
+		<KeyWord name="FIN" />
+		<KeyWord name="fait" />
+		<KeyWord name="alors" />
+		<KeyWord name="fois" />
+		<KeyWord name="comprend" />
+		<KeyWord name="contien" />
+		<KeyWord name="ff" />
+		<KeyWord name="fsi" />
+		<KeyWord name="fclasse" />
+		<KeyWord name="fpour" />
+		<KeyWord name="fboucle" />
+		<KeyWord name="fonction" />
+		<KeyWord name="classe" />
+		<KeyWord name="var" />
+		<KeyWord name="si" />
+		<KeyWord name="sinon" />
+		<KeyWord name="pour" />
+		<KeyWord name="boucler" />
+		<KeyWord name="native" />
+		<KeyWord name="tanq" />
+		<KeyWord name="methode" />
+		<KeyWord name="herite" />
+		<KeyWord name="dans" />
+		<KeyWord name="lire" />
+		<KeyWord name="ecrire" />
+		<KeyWord name="et" />
+		<KeyWord name="eg" />
+		<KeyWord name="affect" />
+		<KeyWord name="PRINCIPAL" />
+		<KeyWord name="constructeur" />
+		<KeyWord name="arreter" />
+		<KeyWord name="lancer" />
+		<KeyWord name="parRef" />
+		<KeyWord name="finApp" />
+		<KeyWord name="allervers" />
+		<KeyWord name="pause" />
+		<KeyWord name="inst" />
+		<KeyWord name="retourner" />
+		<KeyWord name="entier" />
+		<KeyWord name="chaine" />
+		<KeyWord name="objet" />
+		<KeyWord name="sup" />
+		<KeyWord name="inf" />
+		<KeyWord name="non" />
+		<KeyWord name="vrais" />
+		<KeyWord name="faut" />
+		<KeyWord name="dif" />
+		<KeyWord name="#importer" />
+		<KeyWord name="dialogue" />
+		<KeyWord name="dialogue.Msg" />
+		<KeyWord name="dialogue.Entrer" />
+		
+		<KeyWord name="console" />
+		<KeyWord name="console.NLigne" />
+		<KeyWord name="console.Met" />
+		<KeyWord name="console.Ecrire" />
+		<KeyWord name="console.Lire" />
+		<KeyWord name="console.Cle" />
+		<KeyWord name="console.Effacer" />
+		<KeyWord name="console.couleur" />
+		<KeyWord name="console.couleurFG" />
+		<KeyWord name="console.couleurBG" />
+		<KeyWord name="console.tableCouleur" />
+		<KeyWord name="console.Attend" />
+		<KeyWord name="console.Pause" />
+		<KeyWord name="console.BarProgression" />
+		
+		<KeyWord name="math" />
+		<KeyWord name="math.abs" />
+		<KeyWord name="math.arrond" />
+		<KeyWord name="math.exp" />
+		<KeyWord name="math.arronde" />
+		<KeyWord name="math.log" />
+		<KeyWord name="math.ln" />
+		<KeyWord name="math.max" />
+		<KeyWord name="math.min" />
+		<KeyWord name="math.mod" />
+		<KeyWord name="math.arond" />
+		<KeyWord name="math.cos" />
+		<KeyWord name="math.sin" />
+		<KeyWord name="math.tan" />
+		
+		<KeyWord name="sf" />
+		<KeyWord name="sf.rep" />
+		<KeyWord name="sf.rep.copier" />
+		<KeyWord name="sf.rep.cree" />
+		<KeyWord name="sf.rep.sup" />
+		<KeyWord name="sf.rep.dep" />
+		<KeyWord name="sf.rep.select" />
+		<KeyWord name="sf.fichier" />
+		<KeyWord name="sf.fichier.ecrire" />
+		<KeyWord name="sf.fichier.copier" />
+		<KeyWord name="sf.fichier.sup" />
+		<KeyWord name="sf.fichier.dep" />
+		<KeyWord name="sf.fichier.contenue" />
+		<KeyWord name="sf.fichier.select" />
+		<KeyWord name="sf.recycler" />
+		<KeyWord name="sf.recycler0" />
+		<KeyWord name="sf.racourcie" />
+
+		<KeyWord name="divers" />
+		<KeyWord name="divers.lancer" />
+		<KeyWord name="divers.editer" />
+		<KeyWord name="divers.lire" />
+		<KeyWord name="divers.stopLecture" />
+		<KeyWord name="divers.bull" />
+		
+		<KeyWord name="son" />
+		<KeyWord name="son.bip" />
+		<KeyWord name="son.jouer" />
+		<KeyWord name="son.vol" />
+		
+		<KeyWord name="lecteur" />
+		<KeyWord name="lecteur.eject" />
+		<KeyWord name="lecteur.capaciter" />
+		<KeyWord name="lecteur.libeler" />
+		<KeyWord name="lecteur.liste" />
+		<KeyWord name="lecteur.espace" />
+		<KeyWord name="lecteur.chLibeler" />
+		
+		<KeyWord name="chaine" />
+		
+		<KeyWord name="racourcis" />
+		<KeyWord name="racourcis.clavier" />
+		<KeyWord name="racourcis.chaine" />
+		
+		<KeyWord name="sourie" />
+		<KeyWord name="graphique" />
+	</AutoComplete>
+</NotepadPlus>

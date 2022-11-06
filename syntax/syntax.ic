@@ -1,0 +1,58 @@
+
+[ commentaires ]:
+
+// commentaire
+
+#mode "console"
+#idente "oui"
+#import "fichier.ic"
+
+DEBUTPROGRAMME : 'details du programme'
+	classe fille herite mere comprend
+		constructeur : var entier xd  fait
+			varInst = x
+		ff
+		
+		var inst objet varInst
+		var local chaine varLoc
+		
+		methode chaine fn : chaine nom et chaine nom = valeur fait
+			var objet a
+			var entier x
+			
+			si exp alors
+				var entier x = 0
+			sinon si exp alors
+				var chaine y <-- "variable"
+			sinon alors
+				ecrire : "rien";
+			fsi
+			
+			pour index et valeur dans tab fait
+				ecrire : index . valeur ;
+			fpour
+			boucler 10 fois
+				ecrire : IC_index finst
+			fboucle
+			tanq 1 > 3 fait
+				lire : varLoc finst
+			ftanq
+			boucler 4 fois
+				ecrire : IC_index finst
+			jusqua 5
+            native{
+                windows
+            }
+		ff
+	fclasse
+	
+	fonction PRINCIPAL fait
+		var objet o = fille()
+		
+		native {
+			MsgBox("message") [message]:
+            34 . 5 // commentaire
+            
+		}
+	ff
+FINPROGRAMME

@@ -1,0 +1,7 @@
+#mode console
+#identation oui
+ 
+DEBUTPROGRAMME: "Mon Nouveau Programme"
+	//LES CODES VONT ICI
+	
+FINPROGRAMME

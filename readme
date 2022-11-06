@@ -1,0 +1,10 @@
+
+name : InitiaL ( Initiat Language) ( il )
+name : initiat code ( ic )
+
+npp :
+exporter les configurations ( %appdate%\notepad++ )
+
+--------------
+MAIN PROGRAMME
+modules\main.js file_path.il noComp|compile tmp
