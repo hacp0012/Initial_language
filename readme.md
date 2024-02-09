@@ -1,15 +1,20 @@
-## INITIAL LANGUAGE
+# INITIAL LANGUAGE
+
+![Logo](icons/Setup.ico)
+
+Une langaage de programmation initiale pour initié les débutants francophone à la programmation.
+
 name : InitiaL ( Initiat Language) ( il )
 
 name : initiat code ( ic )
 
-est une langage conçu à académique.
+*Est une langage conçu à académique*
 
-il traduit du code ecrire en français dans langage exécutable 
+Il traduit du code ecrire en français dans langage exécutable 
 
-fonctionne seulement sur Windows 
+*fonctionne seulement sur Windows*
 
-il contient certains fichiers exécutable qu'il va installer âpre vérification.
+Il contient certains fichiers exécutable qu'il va installer après vérification.
 
 -- npp : notepad++ v_7.8
 
@@ -19,12 +24,10 @@ il contient certains fichiers exécutable qu'il va installer âpre vérification
 
 -- SciTE4AutoHotkey: editeur de code AHK
 
-cette interpréteur est écris en JS avec node.js
+*cette interpréteur est écris en JS avec node.js*
 
-
-npp :
-exporter les configurations ( %appdate%\notepad++ )
+npp : exporter les configurations ( %appdate%\notepad++ )
 
 --------------
-MAIN PROGRAMME
+## MAIN PROGRAMME
 modules\main.js file_path.il noComp|compile tmp
