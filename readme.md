@@ -1,6 +1,6 @@
 # INITIAL LANGUAGE
 
-![Logo](icons/Setup.ico)
+![Logo](icons/il.ico)
 
 Une langaage de programmation initiale pour initié les débutants francophone à la programmation.
 
