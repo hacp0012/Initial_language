@@ -2,67 +2,69 @@
 
 ![Logo](icons/il.ico)
 
-**Initial Language** (ou **InitiaL**) est un langage de programmation académique conçu spécifiquement pour initier les débutants francophones aux concepts fondamentaux de l'informatique.
+[Version Française](readme_fr.md)
 
-En utilisant une syntaxe intuitive basée sur la langue française, il permet de se concentrer sur la logique algorithmique sans être freiné par la barrière de la langue anglaise.
+**Initial Language** (or **InitiaL**) is an academic programming language specifically designed to introduce French-speaking beginners to the fundamental concepts of computer science.
 
----
-
-## 🌟 Points Forts
-
-- **🗣️ Syntaxe en Français** : Utilisez des mots-clés simples comme `si`, `alors`, `boucler`, `fonction`, etc.
-- **⚙️ Puissance Under-the-hood** : Traduit instantanément le code en **AutoHotkey (AHK)** pour une exécution fluide sur Windows.
-- **🛠️ Environnement Complet** : Intégration prévue avec Notepad++ pour une coloration syntaxique et une auto-complétion optimales.
-- **📦 Compilation Facile** : Transformez vos scripts `.il` en exécutables `.exe` autonomes.
+By using an intuitive syntax based on the French language, it allows students to focus on algorithmic logic without being hindered by the English language barrier.
 
 ---
 
-## 🛠️ Stack Technique
+## 🌟 Key Highlights
 
-Le projet repose sur plusieurs technologies clés :
+- **🗣️ French Syntax**: Use simple keywords like `si` (if), `alors` (then), `boucler` (loop), `fonction` (function), etc.
+- **⚙️ Power Under-the-hood**: Instantly translates code into **AutoHotkey (AHK)** for smooth execution on Windows.
+- **🛠️ Complete Environment**: Planned integration with Notepad++ for optimal syntax highlighting and auto-completion.
+- **📦 Easy Compilation**: Turn your `.il` scripts into standalone `.exe` executables.
 
-- **Node.js (v12+)** : Le moteur de l'interpréteur/traducteur (écrit en JavaScript).
-- **AutoHotkey (v1.8)** : Le langage cible utilisé pour l'exécution finale.
-- **Moo.js** : Utilisé pour la tokenisation et l'analyse lexicale.
-- **Notepad++ & SciTE4AutoHotkey** : Outils recommandés pour le développement.
+---
+
+## 🛠️ Technical Stack
+
+The project is built on several key technologies:
+
+- **Node.js (v12+)**: The interpreter/translator engine (written in JavaScript).
+- **AutoHotkey (v1.8)**: The target language used for final execution.
+- **Moo.js**: Used for tokenization and lexical analysis.
+- **Notepad++ & SciTE4AutoHotkey**: Recommended tools for development.
 
 ---
 
 ## 📦 Installation
 
-Le projet inclut un installeur (`Setup.exe`) qui configure automatiquement l'environnement :
+The project includes an installer (`Setup.exe`) that automatically configures the environment:
 
-1. Lancez `Setup.exe`.
-2. L'installeur vérifiera et installera si nécessaire :
+1. Run `Setup.exe`.
+2. The installer will check and install if necessary:
    - Node.js v12
    - AutoHotkey
-   - Notepad++ (v7.8) avec les configurations InitiaL.
-3. Les fichiers du langage seront installés dans `C:\Initial_Language\`.
+   - Notepad++ (v7.8) with InitiaL configurations.
+3. Language files will be installed in `C:\Initial_Language\`.
 
 ---
 
-## 💻 Exemple de Code
+## 💻 Code Example
 
-Voici à quoi ressemble un programme simple en **InitiaL** :
+Here is what a simple program looks like in **InitiaL**:
 
 ```initial
 #mode console
 #identation non
 
-DEBUTPROGRAMME: 'DEMO_INITIAL'
+DEBUTPROGRAMME: 'INITIAL_DEMO'
 
     fonction PRINCIPAL fait
-        ecrire: 'Bienvenue dans Initial Language !';
+        ecrire: 'Welcome to Initial Language!';
 
         var chaine nom eg ''
-        lire: nom, 'Veuillez entrer votre nom : ';
+        lire: nom, 'Please enter your name: ';
 
         si nom dif '' alors
-            ecrire: "Bonjour " + nom;
+            ecrire: "Hello " + nom;
         fsi
 
         boucler 5 fois
-            ecrire: "Compteur : " + IC_index;
+            ecrire: "Counter: " + IC_index;
         fboucle
     ff
 
@@ -73,36 +75,36 @@ FINPROGRAMME
 
 ---
 
-## 🚀 Utilisation
+## 🚀 Usage
 
-Une fois installé, vous pouvez interagir avec vos fichiers `.il` via le menu contextuel (clic droit) :
+Once installed, you can interact with your `.il` files via the context menu (right-click):
 
-- **Exécuter le programme** : Lance directement votre script.
-- **Compiler le programme** : Génère un fichier `.exe` via le compilateur AHK.
-- **Editer le programme** : Ouvre le fichier dans Notepad++ avec la coloration syntaxique.
+- **Run the program**: Directly launches your script.
+- **Compile the program**: Generates an `.exe` file via the AHK compiler.
+- **Edit the program**: Opens the file in Notepad++ with syntax highlighting.
 
-### Ligne de Commande
+### Command Line
 
-Vous pouvez également lancer manuellement le traducteur :
+You can also manually launch the translator:
 
 ```bash
-node modules\main.js <chemin_du_fichier>.il [noComp|yesComp]
+node modules\main.js <file_path>.il [noComp|yesComp]
 ```
 
 ---
 
-## 📂 Structure du Projet
+## 📂 Project Structure
 
-- `modules/` : Cœur de l'interpréteur (syntax checker, translater, etc.).
-- `exemples/` : Collection de scripts pour apprendre les bases.
-- `configs/` : Fichiers de configuration du système.
-- `icons/` : Ressources graphiques.
-- `doc/` : Documentation supplémentaire.
-- `syntax/` : Fichiers de définition pour la coloration syntaxique (Notepad++).
+- `modules/`: Core of the interpreter (syntax checker, translator, etc.).
+- `exemples/`: Collection of scripts to learn the basics.
+- `configs/`: System configuration files.
+- `icons/`: Graphic resources.
+- `doc/`: Additional documentation.
+- `syntax/`: Definition files for syntax highlighting (Notepad++).
 
 ---
 
-## 📝 Crédits & Licence
+## 📝 Credits & License
 
-Développé par **Ether Solutions** (Copyright 2020).
-_Conçu pour l'éducation et l'apprentissage de l'algorithmique._
+Developed by **Ether Solutions** (Copyright 2020).
+_Designed for education and learning algorithms._
